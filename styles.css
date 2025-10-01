@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff; 
+}
+
+h1 {
+  text-align: center;
+  color: #73000a; 
+}
+
+h2 {
+  color: #73000a;
+  border-bottom: 2px solid #000;
+  padding-bottom: 5px;
+}
+
+.about, .skills, .projects, .contact {
+  border: 1px solid #73000a; 
+  padding: 12px;
+  margin: 15px 0;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
