@@ -21,3 +21,10 @@ h2 {
   border-radius: 6px;
   background-color: #f9f9f9;
 }
+
+img[src="images/Solution to a.png"] {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
