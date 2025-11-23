@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #fff; 
+  background-color: #f6f6f6; 
 }
 
 h1 {
@@ -10,16 +10,16 @@ h1 {
 
 h2 {
   color: #73000a;
-  border-bottom: 2px solid #000;
+  border-bottom: 1px solid #eee;
   padding-bottom: 5px;
 }
 
 .about, .skills, .projects, .contact {
-  border: 1px solid #73000a; 
+  border: 1px solid #eee; 
   padding: 12px;
   margin: 15px 0;
   border-radius: 6px;
-  background-color: #f9f9f9;
+  background-color: #fff;
 }
 
 img[src="images/Solution to a.png"] {
@@ -27,4 +27,48 @@ img[src="images/Solution to a.png"] {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.project {
+  width: 100%;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 20px 16px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  border: 1px solid #eee;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.project h3 {
+  margin-top: 0;
+  color: #73000a;
+}
+
+.project ul {
+  padding-left: 20px;
+}
+
+.btn, .project a {
+  color: #73000a;
+  text-decoration: underline;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 30px;
 }
